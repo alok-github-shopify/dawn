@@ -106,7 +106,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Model Info",
-            "icon": "check_mark",
+            "icon": "silhouette",
             "content": "<p>{{ product.metafields.models.model_info.value.name.value }} is {{ product.metafields.models.model_info.value.height | metafield_tag }} tall and wearing size {{ product.metafields.model.wearing_size.value }}<\/p><p>{{ product.metafields.models.model_info.value.name.value }}'s measurements : <\/p><ul><li>Bust : {{ product.metafields.models.model_info.value.bust | metafield_tag }}<\/li><li>Waist : {{ product.metafields.models.model_info.value.waist | metafield_tag }}<\/li><li>Hips : {{ product.metafields.models.model_info.value.hips | metafield_tag }}<\/li><\/ul>",
             "page": ""
           }
